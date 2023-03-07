@@ -34,6 +34,9 @@ p{
   font-size: 14px;
   font-weight: 400;
 }
+.navbar-top p{
+  color: #fff;
+}
 .navbar-top a{
   color: #fff;
   font-size: 14px;
@@ -151,7 +154,8 @@ p{
 /* End Hero Slide */
 
 .about-area{
-  padding-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   overflow-x: hidden;
 }
 .about-icon{
@@ -171,3 +175,20 @@ p{
   display: flex;
   align-items: center;
 }
+/* End About Area */
+
+.milestone-area{
+  min-height: 200px;
+  background-image: linear-gradient(#06a2daee, #06a2daec),url(../images/banner-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.milestone-area h1, .milestone-area p{
+  color: #fff;
+}
+/* End Milestone Area */
