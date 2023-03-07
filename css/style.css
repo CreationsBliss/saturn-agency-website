@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar-top{
+  background: #091E3E;
+  color: #EEF9FF;
+  font-family: "Rubik",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.navbar-top a{
+  color: #fff;
+  font-family: "Rubik",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.navbar-top p{
+  margin-bottom: 0;
+}
+
+.top-nav-social a{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End top nav */
+
+.navbar-brand{
+  color: #06A3DA;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+.navbar-brand:focus, .navbar-brand:hover{
+  color: #091E3E;
+}
+.navbar-nav .nav-item .nav-link{
+  color: #6c757d;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact-btn{
+  background-color: #06A3DA;
+  border-color: #06A3DA;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  transition: all 0.4s;
+}
+.contact-btn:hover{
+  background-color: #31c0f4;
+  color: #000;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: #06A3DA;
+}
