@@ -446,3 +446,14 @@ p{
   text-decoration: underline;
   display: inline-block;
 }
+/* Blog Area End */
+
+.footer-area{
+  background-color: #091E3E;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer-area p{
+  color: #fff;
+}
+/* Footer Area End */
