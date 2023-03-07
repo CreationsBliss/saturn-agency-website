@@ -11,22 +11,37 @@ body{
 a{
   text-decoration: none;
 }
+
 h1,h2,h3,h4,h5,h6{
   font-weight: 700;
 }
+
 h1{
   font-size: 64px;
 }
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 32px;
+}
+
 h5{
   font-size: 18px;
   color: #091E3E;
 }
+
 h6{
   text-transform: uppercase;
   font-size: 16px;
 }
+
 p{
   color: #6B6A75;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .navbar-top{
   background: #091E3E;
@@ -192,3 +207,53 @@ p{
   color: #fff;
 }
 /* End Milestone Area */
+
+.services-area{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.subheader{
+  color: #06A3DA;
+}
+
+.header{
+  color: #091E3E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.subheader-brief{
+  max-width: 35%;
+  margin: auto;
+}
+
+.services-container{
+  padding-top: 50px;
+}
+
+.services-box{
+  background-color: #EEF9FF;
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.different-services-box{
+  background-color: #06A3DA;
+  padding: 48px;
+}
+.different-services-box h5,.different-services-box h3,.different-services-box p{
+  color: #fff;
+}
+
+.different-services-box h3{
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+.services-box h5{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
