@@ -4,27 +4,38 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Barlow', sans-serif;
+}
+
 a{
   text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+}
+h1{
+  font-size: 64px;
+}
+h5,h6{
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .navbar-top{
   background: #091E3E;
   color: #EEF9FF;
-  font-family: "Rubik",sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 .navbar-top a{
   color: #fff;
-  font-family: "Rubik",sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 .navbar-top p{
   margin-bottom: 0;
 }
-
 .top-nav-social a{
   width: 30px;
   height: 30px;
@@ -35,10 +46,12 @@ a{
   justify-content: center;
 }
 /* End top nav */
-
+.navbar{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px 0px;
+  background-color: #fff;
+}
 .navbar-brand{
   color: #06A3DA;
-  font-family: 'Nunito', sans-serif;
   font-weight: 800;
   font-size: 40px;
 }
@@ -47,27 +60,85 @@ a{
 }
 .navbar-nav .nav-item .nav-link{
   color: #6c757d;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
 }
-
-.contact-btn{
+.btn-one{
   background-color: #06A3DA;
-  border-color: #06A3DA;
+  border: 1px solid #06A3DA;
   color: #fff;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   padding: 10px 30px;
   border-radius: 3px;
   transition: all 0.4s;
 }
-.contact-btn:hover{
-  background-color: #31c0f4;
+.btn-two{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  transition: all 0.4s;
+}
+.btn-two:hover{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+}
+.btn-one:hover{
+  background-color: #fff;
+  border: 1px solid #06A3DA;
   color: #000;
 }
 
-.navbar-nav .nav-item .nav-link:hover{
-  color: #06A3DA;
+.btn{
+  padding: 16px 48px;
+}
+.navbar-nav .nav-item .nav-link:hover,.navbar-nav .nav-item .nav-link:active{
+  color: #06A3DA!important;
+}
+/* End Navbar */
+
+.slide1{
+  min-height: 100vh;
+  background-image: linear-gradient(#0000005f, #000000dc),url(../images/banner-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slide2{
+  min-height: 100vh;
+  background-image: linear-gradient(#0000005f, #000000dc),url(../images/banner-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.owl-prev, .owl-next{
+  position: absolute;
+  top: 50%;
+  background: #ffffff76!important;
+  width: 60px!important;
+  height: 60px!important;
+  margin-top: -30px!important;
+  border-radius: 50%!important;
+  color: #fff!important;
+  font-size: 12px!important;
+  font-weight: 700!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+.owl-prev:hover, .owl-next:hover{
+  background-color: #06A3DA!important;
+}
+.owl-prev{
+  left: 0;
+}
+.owl-next{
+  right: 0;
 }
