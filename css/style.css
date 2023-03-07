@@ -408,3 +408,41 @@ p{
 .review-icon i{
   color: orange;
 }
+/* Reviews Area End */
+
+.blog-area{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.blogs{
+  padding-top: 50px;
+}
+
+.single-blog{
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px 0px;
+  background-color: #fff;
+}
+.blog-category{
+  background-color: #06A3DA;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+.blog-detail{
+  padding: 50px 30px;
+}
+.single-blog img{
+  width: 100%;
+}
+.blog-title{
+  padding-top: 10px;
+}
+.blog-date{
+  color: #06A3DA;
+  text-decoration: underline;
+  display: inline-block;
+}
