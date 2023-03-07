@@ -17,11 +17,17 @@ h1,h2,h3,h4,h5,h6{
 h1{
   font-size: 64px;
 }
-h5,h6{
+h5{
+  font-size: 18px;
+  color: #091E3E;
+}
+h6{
   text-transform: uppercase;
   font-size: 16px;
 }
-
+p{
+  color: #6B6A75;
+}
 .navbar-top{
   background: #091E3E;
   color: #EEF9FF;
@@ -141,4 +147,27 @@ h5,h6{
 }
 .owl-next{
   right: 0;
+}
+/* End Hero Slide */
+
+.about-area{
+  padding-top: 60px;
+  overflow-x: hidden;
+}
+.about-icon{
+  background-color: #06A3DA;
+  color: #fff;
+  width: 85px;
+  height: 85px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px 0px;
+  font-size: 35px;
+  margin-right: 25px;
+}
+.about-single-box{
+  display: flex;
+  align-items: center;
 }
