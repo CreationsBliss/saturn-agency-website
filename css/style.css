@@ -366,3 +366,45 @@ p{
   align-items: center;
   justify-content: center;
 }
+/* Team Area End */
+
+.reviews-area{
+  min-height: 200px;
+  background-image: linear-gradient(#091e3ef5, #091e3ef5),url(../images/banner-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.team-img{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 100%;
+}
+.single-review img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.single-review h5{
+  padding-top: 15px;
+  color: #fff;
+}
+.single-review .designation{
+  color: #06A3DA;
+}
+.single-review .feedback{
+  color: #FFF;
+  font-size: 18px;
+  max-width: 768px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.review-icon i{
+  color: orange;
+}

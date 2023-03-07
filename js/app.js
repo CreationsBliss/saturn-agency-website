@@ -40,5 +40,15 @@ $(document).ready(function(){
           center: true,
         },
     }
-  })
+  });
+
+  $('.review-box').owlCarousel({
+    loop:true,
+    margin:0,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    smartSpeed: 1000,
+    nav:false,
+    items: 1,
+});
 })
