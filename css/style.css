@@ -303,3 +303,66 @@ p{
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #06A3DA;
 }
+/* Portfolio Area End */
+
+.team-area{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.team-members{
+  padding-top: 50px;
+}
+
+.team-member-image{
+  position: relative;
+}
+.team-member-image img{
+  width: 100%;
+}
+
+.team-single-box{
+  overflow: hidden;
+}
+.team-member-overlay{
+  position: absolute;
+  top:-10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-image: linear-gradient(rgb(6 162 218 / 56%), rgb(6 162 218 / 82%));
+  transition: all 0.4s ease;
+}
+
+.team-single-box:hover .team-member-overlay{
+  top:0;
+  opacity: 1;
+}
+
+.team-memeber-social{
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.team-single-box:hover .team-memeber-social{
+  top:50%;
+  opacity: 1;
+}
+.member-name{
+  padding-top: 15px;
+}
+
+.team-memeber-social a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  color: white;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
