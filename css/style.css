@@ -419,9 +419,13 @@ p{
 }
 
 .single-blog{
+  cursor: pointer;
   position: relative;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px 0px;
   background-color: #fff;
+}
+.single-blog:hover .blog-title{
+  color: #06A3DA;
 }
 .blog-category{
   background-color: #06A3DA;
@@ -457,3 +461,30 @@ p{
   color: #fff;
 }
 /* Footer Area End */
+
+.modal-left-col{
+  min-height: 300px;
+  background-image: url(../images/c2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-image img{
+  width: 100%;
+}
+
+.form-col{
+  padding: 60px;
+}
+
+.form-control{
+  background-color: #F4F6F7;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form-control:focus{
+  background-color: #F4F6F7;
+  box-shadow: none;
+}
