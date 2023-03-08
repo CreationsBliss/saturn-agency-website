@@ -34,6 +34,7 @@ $(document).ready(function(){
         },
         768:{
           items: 2,
+          center: true,
         },
         992:{
           items: 2,

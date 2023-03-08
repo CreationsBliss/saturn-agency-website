@@ -121,7 +121,11 @@ p{
 .btn{
   padding: 16px 48px;
 }
-.navbar-nav .nav-item .nav-link:hover,.navbar-nav .nav-item .nav-link:active{
+.navbar-nav .nav-item .nav-link:hover{
+  color: #06A3DA!important;
+}
+
+.navbar-nav .nav-item .nav-link.active{
   color: #06A3DA!important;
 }
 /* End Navbar */
