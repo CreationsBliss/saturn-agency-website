@@ -1,12 +1,12 @@
 # Saturn
 A Bootstrap multipurpose template
 
-# Live Website
+### Live Website
 - https://creationsbliss.github.io/saturn-agency-website/
 
-# Technology used: HTML, CSS, Bootstrap, JavaScript, Jquery
+### Technology used: HTML, CSS, Bootstrap, JavaScript, Jquery
 
-# Features
+### Features
 - Fully Responsive
 - Mobile Navigations
 - Animated elements on scroll
