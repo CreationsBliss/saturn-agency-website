@@ -1,5 +1,5 @@
 # Saturn
-A Bootstrap multipurpose template
+A modern multipurpose template.
 
 ### Live Website
 - https://creationsbliss.github.io/saturn-agency-website/
